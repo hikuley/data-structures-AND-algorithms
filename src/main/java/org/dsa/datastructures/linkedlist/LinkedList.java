@@ -133,17 +133,17 @@ public class LinkedList {
     public Node remove(int index) {
         if (index < 0 || index >= length) return null;
         if (index == 0) return removeFirst();
-        if (index == length) return removeLast();
+        if (index == length - 1) return removeLast();
 
-        Node temp = get(index - 1);
-        Node node = get(index);
+        Node pre = get(index - 1);
+        Node temp = pre.next;
 
-        temp.next = node.next;
-        node.next = null;
+        pre.next = temp.next;
+        temp.next = null;
 
         length--;
 
-        return node;
+        return temp;
     }
 
 
