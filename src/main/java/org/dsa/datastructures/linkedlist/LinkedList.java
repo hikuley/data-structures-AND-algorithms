@@ -120,12 +120,32 @@ public class LinkedList {
 
         Node newNode = new Node(value);
         Node temp = get(index - 1);
+
+        // Put new node into the list.
         newNode.next = temp.next;
         temp.next = newNode;
+
         length++;
 
         return true;
     }
+
+    public Node remove(int index) {
+        if (index < 0 || index >= length) return null;
+        if (index == 0) return removeFirst();
+        if (index == length) return removeLast();
+
+        Node temp = get(index - 1);
+        Node node = get(index);
+
+        temp.next = node.next;
+        node.next = null;
+
+        length--;
+
+        return node;
+    }
+
 
     private boolean prependAndReturnTrue(int value) {
         prepend(value);
