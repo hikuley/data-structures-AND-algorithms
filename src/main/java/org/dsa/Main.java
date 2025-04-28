@@ -13,14 +13,12 @@ public class Main {
         linkedList.append(4);
         linkedList.append(5);
 
-        System.out.println("before called the prepend method: ");
+        System.out.println("before called the reverse method: ");
         linkedList.printList();
 
-        linkedList.set(2, 5);
+        linkedList.reverse();
 
-        System.out.println("after called the set method: ");
+        System.out.println("after called the reverse method: ");
         linkedList.printList();
-
-
     }
 }
