@@ -13,6 +13,11 @@ public class LinkedList {
         Node(int value) {
             this.value = value;
         }
+
+        public int getValue() {
+            return value;
+        }
+
     }
 
     public LinkedList(int value) {
@@ -147,18 +152,19 @@ public class LinkedList {
     }
 
     public void reverse() {
-        Node temp = head;
+        Node current = head;
         head = tail;
-        tail = temp;
+        tail = current;
 
-        Node after;
+        Node after = null;
         Node before = null;
 
         for (int i = 0; i < length; i++) {
-            after = temp.next;
-            temp.next = before; /* important point */
-            before = temp;
-            temp = after;
+            after = current.next;
+            current.next = before; /* important point */
+
+            before = current;
+            current = after;
         }
     }
 
@@ -171,6 +177,16 @@ public class LinkedList {
     private boolean appendAndReturnTrue(int value) {
         append(value);
         return true;
+    }
+
+    public Node findMiddleNode() {
+        Node slow = head;
+        Node fast = head;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow;
     }
 
 }

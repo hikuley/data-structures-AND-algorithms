@@ -23,6 +23,7 @@ The LinkedList class provides the following methods:
 - `insert(int index, int value)`: Inserts a new node at the specified index
 - `remove(int index)`: Removes and returns the node at the specified index
 - `reverse()`: Reverses the order of nodes in the list
+- `findMiddleNode()`: Returns the middle node of the list using the fast-slow pointer technique
 - `printList()`: Prints all values in the list
 - `getHead()`: Prints the value of the head node
 - `getTail()`: Prints the value of the tail node
