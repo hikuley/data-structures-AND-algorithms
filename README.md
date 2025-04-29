@@ -5,7 +5,7 @@ This project contains Java implementations of common data structures and algorit
 ## Features
 
 - Singly linked list implementation with comprehensive set of operations
-- Node class for linked list elements
+- Node class for linked list elements with value access methods
 - Methods for list manipulation and traversal
 - Bounds checking for all operations
 - Object-oriented design
@@ -24,10 +24,14 @@ The LinkedList class provides the following methods:
 - `remove(int index)`: Removes and returns the node at the specified index
 - `reverse()`: Reverses the order of nodes in the list
 - `findMiddleNode()`: Returns the middle node of the list using the fast-slow pointer technique
+- `hasLoop()`: Detects if the linked list contains a cycle using Floyd's cycle-finding algorithm
 - `printList()`: Prints all values in the list
 - `getHead()`: Prints the value of the head node
 - `getTail()`: Prints the value of the tail node
 - `getLength()`: Prints the current length of the list
+
+The Node class provides:
+- `getValue()`: Returns the integer value stored in the node
 
 ## Usage
 
