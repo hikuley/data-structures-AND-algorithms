@@ -18,6 +18,13 @@ public class LinkedList {
             return value;
         }
 
+        @Override
+        public String toString() {
+            return "Node{" +
+                    "value=" + value +
+                    ", next=" + next +
+                    '}';
+        }
     }
 
     public LinkedList(int value) {
@@ -198,6 +205,26 @@ public class LinkedList {
             if (slow == fast) return true;
         }
         return false;
+    }
+
+
+    public Node findKthFromEnd(int k) {
+        Node slow = head;
+        Node fast = head;
+
+        for (int i = 0; i < k; i++) {
+            if (fast == null) {
+                return null;
+            }
+            fast = fast.next;
+        }
+
+        while (fast != null) {
+            slow = slow.next;
+            fast = fast.next;
+        }
+
+        return slow;
     }
 
 }

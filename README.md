@@ -25,6 +25,7 @@ The LinkedList class provides the following methods:
 - `reverse()`: Reverses the order of nodes in the list
 - `findMiddleNode()`: Returns the middle node of the list using the fast-slow pointer technique
 - `hasLoop()`: Detects if the linked list contains a cycle using Floyd's cycle-finding algorithm
+- `findKthFromEnd(int k)`: Returns the kth node from the end of the list using the fast-slow pointer technique
 - `printList()`: Prints all values in the list
 - `getHead()`: Prints the value of the head node
 - `getTail()`: Prints the value of the tail node
