@@ -10,15 +10,32 @@ public class Main {
         linkedList.append(2);
         linkedList.append(3);
         linkedList.append(4);
+        linkedList.append(3);
+        linkedList.append(3);
+        linkedList.append(3);
+        linkedList.append(3);
+        linkedList.append(3);
+        linkedList.append(3);
+        linkedList.append(3);
+        linkedList.append(3);
+        linkedList.append(3);
+        linkedList.append(3);
+        linkedList.append(3);
+        linkedList.append(3);
+        linkedList.append(3);
+        linkedList.append(3);
+        linkedList.append(3);
         linkedList.append(5);
 
 
         System.out.println("before called the findMiddleNode method: ");
         linkedList.printList();
 
+        linkedList.removeDuplicates();
 
         System.out.println("after called the findMiddleNode method: ");
-        final LinkedList.Node middleNode = linkedList.findKthFromEnd(3);
-        System.out.println(middleNode);
+        linkedList.printList();
+
+
     }
 }

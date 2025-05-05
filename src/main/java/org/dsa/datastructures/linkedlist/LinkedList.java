@@ -227,4 +227,28 @@ public class LinkedList {
         return slow;
     }
 
+
+    public void removeDuplicates() {
+        Node current = head;
+        while (current != null) {
+            Node runner = current;
+            while (runner != null) {
+                if (runner.next !=null && current.value == runner.next.value) {
+                    runner.next = runner.next.next; // Remove duplıcate node
+                    length--;
+                } else {
+                    runner = runner.next;
+                }
+            }
+            current = current.next;
+        }
+    }
+
+
+    public void partitionList(int x) {
+
+        if (head == null) return;
+
+    }
+
 }
