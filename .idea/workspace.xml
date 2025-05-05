@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b5e003e7-846d-45a7-b40c-df88b741a2df" name="Changes" comment="Added `findKthFromEnd(int k)` method to LinkedList class and created project configuration files in .idea directory.">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dsa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dsa/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dsa/datastructures/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dsa/datastructures/linkedlist/LinkedList.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2w3XCiEvk3juQM2d8FdRJabA0rR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsa.Main" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dsa.linklist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5e003e7-846d-45a7-b40c-df88b741a2df" name="Changes" comment="" />
+      <created>1745271104333</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745271104333</updated>
+      <workItem from="1745271105432" duration="2209000" />
+      <workItem from="1745343248015" duration="43875000" />
+      <workItem from="1745780824836" duration="4323000" />
+      <workItem from="1745849119281" duration="50701000" />
+    </task>
+    <task id="LOCAL-00001" summary="Created and Studied Linklist methods">
+      <option name="closed" value="true" />
+      <created>1745607099199</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745607099199</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Create README.md file">
+      <option name="closed" value="true" />
+      <created>1745607547682</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745607547682</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Create remove method">
+      <option name="closed" value="true" />
+      <created>1745674248979</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1745674248979</updated>
+    </task>
+    <task id="LOCAL-00004" summary="improve remove the method">
+      <option name="closed" value="true" />
+      <created>1745674687149</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745674687149</updated>
+    </task>
+    <task id="LOCAL-00005" summary="improve the reverse method">
+      <option name="closed" value="true" />
+      <created>1745851653960</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745851653960</updated>
+    </task>
+    <task id="LOCAL-00006" summary="improve the reverse method">
+      <option name="closed" value="true" />
+      <created>1745851772820</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1745851772820</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Stuied and improved one method named `findMiddleNode`">
+      <option name="closed" value="true" />
+      <created>1745948483511</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1745948483511</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Studied and improved one method named `hasLoop`">
+      <option name="closed" value="true" />
+      <created>1745951798829</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1745951798829</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added `findKthFromEnd(int k)` method to LinkedList class and created project configuration files in .idea directory.">
+      <option name="closed" value="true" />
+      <created>1746292823215</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1746292823215</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Created and Studied Linklist methods" />
+    <MESSAGE value="Create README.md file" />
+    <MESSAGE value="Create remove method" />
+    <MESSAGE value="improve remove the method" />
+    <MESSAGE value="improve the reverse method" />
+    <MESSAGE value="Stuied and improved one method named `findMiddleNode`" />
+    <MESSAGE value="Studied and improved one method named `hasLoop`" />
+    <MESSAGE value="Added `findKthFromEnd(int k)` method to LinkedList class and created project configuration files in .idea directory." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added `findKthFromEnd(int k)` method to LinkedList class and created project configuration files in .idea directory." />
+  </component>
+</project>
