@@ -27,7 +27,7 @@ The LinkedList class provides the following methods:
 - `hasLoop()`: Detects if the linked list contains a cycle using Floyd's cycle-finding algorithm
 - `findKthFromEnd(int k)`: Returns the kth node from the end of the list using the fast-slow pointer technique
 - `removeDuplicates()`: Removes all duplicate nodes from the list
-- `partitionList(int x)`: Partitions the list around value x (nodes less than x come before nodes greater than or equal to x)
+- `binaryToDecimal()`: Converts a binary number represented as a linked list into its decimal equivalent
 - `printList()`: Prints all values in the list
 - `getHead()`: Prints the value of the head node
 - `getTail()`: Prints the value of the tail node

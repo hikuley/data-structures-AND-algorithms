@@ -20,10 +20,7 @@ public class LinkedList {
 
         @Override
         public String toString() {
-            return "Node{" +
-                    "value=" + value +
-                    ", next=" + next +
-                    '}';
+            return "Node{" + "value=" + value + ", next=" + next + '}';
         }
     }
 
@@ -233,7 +230,7 @@ public class LinkedList {
         while (current != null) {
             Node runner = current;
             while (runner != null) {
-                if (runner.next !=null && current.value == runner.next.value) {
+                if (runner.next != null && current.value == runner.next.value) {
                     runner.next = runner.next.next; // Remove duplıcate node
                     length--;
                 } else {
@@ -244,11 +241,15 @@ public class LinkedList {
         }
     }
 
-
-    public void partitionList(int x) {
-
-        if (head == null) return;
-
+    public int binaryToDecimal() {
+        Node current = head;
+        int num = 0;
+        while (current != null) {
+            num = num * 2 + current.value;
+            current = current.next;
+        }
+        return num;
     }
+
 
 }
