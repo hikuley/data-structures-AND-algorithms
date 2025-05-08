@@ -257,40 +257,29 @@ public class LinkedList {
     public void partitionList(int x) {
         if (head == null) return;
 
-        Node smalls = null;
-        Node biggers = null;
+        Node dummy1 = new Node(0);
+        Node dummy2 = new Node(0);
+
+        Node prev1 = dummy1;
+        Node prev2 = dummy2;
+
         Node current = head;
 
         while (current != null) {
-            int currentValue = current.value;
-            final Node newNode = new Node(currentValue);
-
-            if (currentValue >= x) {
-                if (biggers == null) {
-                    biggers = newNode;
-                } else {
-                    Node findCurrent = biggers;
-                    while (findCurrent.next != null) findCurrent = findCurrent.next;
-                    findCurrent.next = newNode;
-                }
+            final int currentValue = current.value;
+            if (x > currentValue) {
+                prev1.next = current;
+                prev1 = current;
             } else {
-                if (smalls == null) {
-                    smalls = newNode;
-                } else {
-                    Node findCurrent = smalls;
-                    while (findCurrent.next != null) findCurrent = findCurrent.next;
-                    findCurrent.next = newNode;
-                }
+                prev2.next = current;
+                prev2 = current;
             }
             current = current.next;
         }
 
-        if (smalls != null && biggers != null) {
-            Node smallTail = smalls;
-            while (smallTail.next != null) smallTail = smallTail.next;
-            smallTail.next = biggers;
-            head = smalls;
-        }
+        prev2.next = null;
+        prev1.next = dummy2.next;
+        head = dummy1.next;
 
     }
 
