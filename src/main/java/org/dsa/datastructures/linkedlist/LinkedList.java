@@ -24,6 +24,9 @@ public class LinkedList {
         }
     }
 
+    public LinkedList() {
+    }
+
     public LinkedList(int value) {
         Node newNode = new Node(value);
         head = newNode;
@@ -249,6 +252,46 @@ public class LinkedList {
             current = current.next;
         }
         return num;
+    }
+
+    public void partitionList(int x) {
+        if (head == null) return;
+
+        Node smalls = null;
+        Node biggers = null;
+        Node current = head;
+
+        while (current != null) {
+            int currentValue = current.value;
+            final Node newNode = new Node(currentValue);
+
+            if (currentValue >= x) {
+                if (biggers == null) {
+                    biggers = newNode;
+                } else {
+                    Node findCurrent = biggers;
+                    while (findCurrent.next != null) findCurrent = findCurrent.next;
+                    findCurrent.next = newNode;
+                }
+            } else {
+                if (smalls == null) {
+                    smalls = newNode;
+                } else {
+                    Node findCurrent = smalls;
+                    while (findCurrent.next != null) findCurrent = findCurrent.next;
+                    findCurrent.next = newNode;
+                }
+            }
+            current = current.next;
+        }
+
+        if (smalls != null && biggers != null) {
+            Node smallTail = smalls;
+            while (smallTail.next != null) smallTail = smallTail.next;
+            smallTail.next = biggers;
+            head = smalls;
+        }
+
     }
 
 
