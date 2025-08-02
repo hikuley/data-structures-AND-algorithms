@@ -283,5 +283,9 @@ public class LinkedList {
 
     }
 
+    public void reverseBetween(int startIndex, int endIndex) {
+
+    }
+
 
 }
