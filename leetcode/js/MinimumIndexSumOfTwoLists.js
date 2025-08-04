@@ -6,6 +6,7 @@
  * @return {string[]}
  */
 var findRestaurant = function(list1, list2) {
+
     
 };
 //IMPORTANT!! Submit Code Region End(Do not remove this line)

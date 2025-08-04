@@ -4,7 +4,7 @@
  * @param {number} target
  * @return {number[]}
  */
-var twoSum = function (nums, target) {
+const twoSum = function (nums, target) {
     const map = new Map();
 
     for (let i = 0; i < nums.length; i++) {
@@ -17,8 +17,8 @@ var twoSum = function (nums, target) {
         if (map.has(complement) && map.get(complement) !== i) {
             return [i, map.get(complement)]
         }
-
     }
+
     return null;
 };
 //IMPORTANT!! Submit Code Region End(Do not remove this line)

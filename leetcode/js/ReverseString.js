@@ -4,6 +4,7 @@
  * @return {void} Do not return anything, modify s in-place instead.
  */
 
+// Two-pointer Approach
 const reverseString = function (s) {
     let left = 0, right = s.length - 1;
     while (left < right) {
@@ -19,7 +20,7 @@ const reverseString = function (s) {
 };
 //IMPORTANT!! Submit Code Region End(Do not remove this line)
 
+// Example usage:
 const test = "hello";
-const sampleString = test.split("");
-const output = reverseString(sampleString).join("");
+const output = reverseString(test.split("")).join("");
 console.log(output); // Output: ["o", "l", "l", "e", "h"]
