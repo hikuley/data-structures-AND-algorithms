@@ -1,10 +1,11 @@
 
 //IMPORTANT!! Submit Code Region Begin(Do not remove this line)
 /**
- * @param {number[]} height
- * @return {number}
+ * @param {string[]} list1
+ * @param {string[]} list2
+ * @return {string[]}
  */
-var maxArea = function(height) {
+var findRestaurant = function(list1, list2) {
     
 };
 //IMPORTANT!! Submit Code Region End(Do not remove this line)
