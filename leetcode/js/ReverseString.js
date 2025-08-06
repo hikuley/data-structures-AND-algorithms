@@ -2,6 +2,9 @@
 /**
  * @param {character[]} s
  * @return {void} Do not return anything, modify s in-place instead.
+ *
+ *  This method uses TWO-POINTER APPROACH
+ *
  */
 
 // Two-pointer Approach

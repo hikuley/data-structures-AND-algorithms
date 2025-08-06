@@ -2,9 +2,14 @@
 /**
  * @param {string} string
  * @return {boolean}
+ *
+ *  Note: Works with Last IN First OUT => LIFO =>
+ *      push(..) => adds an item to the top of Stack
+ *      pop()    => removes an item from the top of stack
+ *
  */
 const isValid = function (string) {
-    const stack = []; // Works with Last IN First OUT => LIFO => push(..), pop()
+    const stack = [];
 
     for (let i = 0; i < string.length; i++) {
 

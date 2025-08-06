@@ -5,7 +5,7 @@
  */
 const freqAlphabets = function (s) {
 
-    if (1 >= s.length || s.length >= 1000) return "";
+  /*  if (1 >= s.length || s.length >= 1000) return "";
 
     const map = new Map();
     map.set("1", "a");
@@ -19,7 +19,7 @@ const freqAlphabets = function (s) {
         const index = strings[i];
         let character = map.get(index)
         result += character;
-    }
+    }*/
 
     return result;
 
