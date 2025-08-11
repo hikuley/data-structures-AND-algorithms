@@ -5,7 +5,6 @@ import java.util.Map;
 
 class TwoSum {
 
-
     //IMPORTANT!! Submit Code Region Begin(Do not remove this line)
     class Solution {
         public int[] twoSum(int[] nums, int target) {
@@ -24,7 +23,7 @@ class TwoSum {
             return new int[]{};
         }
     }
-//IMPORTANT!! Submit Code Region End(Do not remove this line)
+    //IMPORTANT!! Submit Code Region End(Do not remove this line)
 
     public static void main(String[] args) {
         // Test the TwoSum solution
@@ -40,3 +39,4 @@ class TwoSum {
 
     }
 }
+
