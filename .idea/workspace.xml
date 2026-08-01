@@ -3,20 +3,52 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BackgroundAgentGlobalSettings">
+    <option name="selectedModelId" value="claude-opus-4.7" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5e003e7-846d-45a7-b40c-df88b741a2df" name="Changes" comment="Added `findKthFromEnd(int k)` method to LinkedList class and created project configuration files in .idea directory.">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dsa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dsa/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dsa/datastructures/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dsa/datastructures/linkedlist/LinkedList.java" afterDir="false" />
+    <list default="true" id="64981d65-113f-4b6d-86fa-c6595039bfdf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/org/dsa/dataStructures/binaryTree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/org/dsa/interviewSamples/AdvancedStreamProblems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/org/dsa/interviewSamples/CharacterCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/org/dsa/interviewSamples/CompletableFutureGuide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/org/dsa/interviewSamples/ExecutorServiceGuide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/org/dsa/interviewSamples/StreamAPIProblems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/org/dsa/interviewSamples/StringModificationSamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/JAVA/src/main/java/leetcodecn/PlusOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/JAVA/src/main/java/leetcodecn/RomanToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/JAVA/src/main/java/leetcodecn/TwoSumIiInputArrayIsSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/JAVA/src/main/java/leetcodecn/ValidAnagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/src/main/java/org/dsa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structures/src/main/java/org/dsa/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/src/main/java/org/dsa/datastructures/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structures/src/main/java/org/dsa/dataStructures/linkedlist/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/JAVA/src/main/java/leetcodecn/MakeArrayNonDecreasing.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/JAVA/src/main/java/leetcodecn/MakeArrayNonDecreasing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/JAVA/src/main/java/leetcodecn/ReverseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/JAVA/src/main/java/leetcodecn/ReverseInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/JAVA/src/main/java/leetcodecn/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/JAVA/src/main/java/leetcodecn/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/JAVA/src/main/java/leetcodecn/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/JAVA/src/main/java/leetcodecn/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/python/TwoSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/python/TwoSum.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/halilibrahimkuley/ws/DSA" value="30jfgWDM5S1xgHoadGxPlm16SX4" />
+    </persistenceIdMap>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="48" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="Class" />
       </list>
     </option>
@@ -24,41 +56,129 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hikuley&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:hikuley/-DSA-Data-Structures-Algorithms-.git&quot;,
+    &quot;accountId&quot;: &quot;f6f36c2d-1fb0-43c3-a8f5-208458386766&quot;
+  }
+}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;contexts&quot;: [
+    {
+      &quot;name&quot;: &quot;minikube&quot;,
+      &quot;originalNamespace&quot;: &quot;default&quot;
+    }
+  ],
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="KubernetesSettings">
+    <option name="contextName" value="minikube" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
+  &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="2w3XCiEvk3juQM2d8FdRJabA0rR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="30jfgWDM5S1xgHoadGxPlm16SX4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="modeId" value="Ask" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="claude-opus-4.7" />
+          </model>
+        </option>
+        <option name="targetType" value="LOCAL" />
+      </template>
+    </option>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AdvancedStreamProblems.executor&quot;: &quot;Run&quot;,
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinaryTree.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CharacterCounter (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompletableFutureGuide.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Interview.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterviewSample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PlusOne.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RomanToInteger.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Sample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamAPIProblems.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestInterview.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.leetcode.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.DecryptStringFromAlphabetToIntegerMapping.js.executor&quot;: &quot;Debug&quot;,
+    &quot;Node.js.ReverseInteger.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.ReverseString.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.ValidParentheses.js.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.TwoSum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/halilibrahimkuley/ws/DSA/data-structures/src/main/java/org/dsa&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.32528734&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsa.Main" />
-      <module name="DSA" />
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data-structures/src/main/java/org/dsa" />
+      <recent name="$PROJECT_DIR$/leetcode" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PlusOne">
+    <configuration name="CharacterCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsa.interviewSamples.CharacterCounter" />
+      <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.dsa.linklist.*" />
+          <option name="PATTERN" value="org.dsa.interviewSamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,98 +186,170 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CompletableFutureGuide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsa.interviewSamples.CompletableFutureGuide" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dsa.interviewSamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodecn.PlusOne" />
+      <module name="leetcode-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodecn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamAPIProblems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsa.interviewSamples.StreamAPIProblems" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dsa.interviewSamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodecn.TwoSum" />
+      <module name="leetcode-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodecn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.PlusOne" />
+      <item itemvalue="Application.TwoSum" />
+      <item itemvalue="Application.CharacterCounter" />
+      <item itemvalue="Application.CompletableFutureGuide" />
+      <item itemvalue="Application.StreamAPIProblems" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.PlusOne" />
+        <item itemvalue="Application.TwoSum" />
+        <item itemvalue="Application.StreamAPIProblems" />
+        <item itemvalue="Application.CompletableFutureGuide" />
+        <item itemvalue="Application.CharacterCounter" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b5e003e7-846d-45a7-b40c-df88b741a2df" name="Changes" comment="" />
-      <created>1745271104333</created>
+      <changelist id="64981d65-113f-4b6d-86fa-c6595039bfdf" name="Changes" comment="" />
+      <created>1754146013752</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1745271104333</updated>
-      <workItem from="1745271105432" duration="2209000" />
-      <workItem from="1745343248015" duration="43875000" />
-      <workItem from="1745780824836" duration="4323000" />
-      <workItem from="1745849119281" duration="50701000" />
+      <updated>1754146013752</updated>
+      <workItem from="1754146014755" duration="2189000" />
+      <workItem from="1754148216772" duration="38118000" />
+      <workItem from="1754348950141" duration="12874000" />
+      <workItem from="1754502765202" duration="20923000" />
+      <workItem from="1754916501154" duration="9923000" />
+      <workItem from="1755126516455" duration="10093000" />
+      <workItem from="1755963941955" duration="1324000" />
+      <workItem from="1756549790603" duration="571000" />
+      <workItem from="1756722833344" duration="3468000" />
+      <workItem from="1757428794806" duration="10268000" />
+      <workItem from="1758625421051" duration="951000" />
+      <workItem from="1758636646671" duration="599000" />
+      <workItem from="1759607109588" duration="2501000" />
+      <workItem from="1760908497101" duration="380000" />
+      <workItem from="1762772933793" duration="2258000" />
+      <workItem from="1764067885875" duration="1802000" />
+      <workItem from="1764102828879" duration="5857000" />
+      <workItem from="1764938239977" duration="3595000" />
+      <workItem from="1765448377812" duration="1393000" />
+      <workItem from="1765459404896" duration="73000" />
+      <workItem from="1767711167060" duration="3622000" />
+      <workItem from="1767883224905" duration="8000" />
+      <workItem from="1767883242821" duration="15000" />
+      <workItem from="1767990239441" duration="21433000" />
+      <workItem from="1771428220136" duration="813000" />
+      <workItem from="1782562395670" duration="3073000" />
+      <workItem from="1782586209801" duration="18951000" />
+      <workItem from="1785343305574" duration="20150000" />
+      <workItem from="1785610317118" duration="2356000" />
     </task>
-    <task id="LOCAL-00001" summary="Created and Studied Linklist methods">
+    <task id="LOCAL-00001" summary="Add `reverseBetween` method to LinkedList class and update project structure">
       <option name="closed" value="true" />
-      <created>1745607099199</created>
+      <created>1754146826728</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1745607099199</updated>
+      <updated>1754146826728</updated>
     </task>
-    <task id="LOCAL-00002" summary="Create README.md file">
+    <task id="LOCAL-00002" summary="Add new algorithm implementations for string and integer manipulation">
       <option name="closed" value="true" />
-      <created>1745607547682</created>
+      <created>1754323646003</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1745607547682</updated>
+      <updated>1754323646003</updated>
     </task>
-    <task id="LOCAL-00003" summary="Create remove method">
+    <task id="LOCAL-00003" summary="Add ReverseString class with in-place string reversal method">
       <option name="closed" value="true" />
-      <created>1745674248979</created>
+      <created>1754327981290</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1745674248979</updated>
+      <updated>1754327981290</updated>
     </task>
-    <task id="LOCAL-00004" summary="improve remove the method">
+    <task id="LOCAL-00004" summary="Add ValidParentheses function to validate bracket sequences and refactor existing functions">
       <option name="closed" value="true" />
-      <created>1745674687149</created>
+      <created>1754349093733</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1745674687149</updated>
+      <updated>1754349093733</updated>
     </task>
-    <task id="LOCAL-00005" summary="improve the reverse method">
+    <task id="LOCAL-00005" summary="Enhance documentation for algorithms with additional comments and clarifications">
       <option name="closed" value="true" />
-      <created>1745851653960</created>
+      <created>1754502801941</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1745851653960</updated>
+      <updated>1754502801941</updated>
     </task>
-    <task id="LOCAL-00006" summary="improve the reverse method">
+    <task id="LOCAL-00006" summary="Implement ReverseInteger class with integer reversal logic and update test code">
       <option name="closed" value="true" />
-      <created>1745851772820</created>
+      <created>1754952104722</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1745851772820</updated>
+      <updated>1754952104722</updated>
     </task>
-    <task id="LOCAL-00007" summary="Stuied and improved one method named `findMiddleNode`">
-      <option name="closed" value="true" />
-      <created>1745948483511</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1745948483511</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Studied and improved one method named `hasLoop`">
-      <option name="closed" value="true" />
-      <created>1745951798829</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1745951798829</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Added `findKthFromEnd(int k)` method to LinkedList class and created project configuration files in .idea directory.">
-      <option name="closed" value="true" />
-      <created>1746292823215</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1746292823215</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,14 +358,66 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Created and Studied Linklist methods" />
-    <MESSAGE value="Create README.md file" />
-    <MESSAGE value="Create remove method" />
-    <MESSAGE value="improve remove the method" />
-    <MESSAGE value="improve the reverse method" />
-    <MESSAGE value="Stuied and improved one method named `findMiddleNode`" />
-    <MESSAGE value="Studied and improved one method named `hasLoop`" />
-    <MESSAGE value="Added `findKthFromEnd(int k)` method to LinkedList class and created project configuration files in .idea directory." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added `findKthFromEnd(int k)` method to LinkedList class and created project configuration files in .idea directory." />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add `reverseBetween` method to LinkedList class and update project structure" />
+    <MESSAGE value="Add implementations of `TwoSum` in Java, JavaScript, and Python; create `ReverseInteger` placeholder" />
+    <MESSAGE value="Add new algorithm implementations for string and integer manipulation" />
+    <MESSAGE value="Add ReverseString class with in-place string reversal method" />
+    <MESSAGE value="Add ValidParentheses function to validate bracket sequences and refactor existing functions" />
+    <MESSAGE value="Enhance documentation for algorithms with additional comments and clarifications" />
+    <MESSAGE value="Implement ReverseInteger class with integer reversal logic and update test code" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/JAVA/src/main/java/leetcodecn/RomanToInteger.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structures/src/main/java/org/dsa/Sample.java</url>
+          <line>20</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structures/src/main/java/org/dsa/interviewSamples/StreamAPIProblems.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structures/src/main/java/org/dsa/interviewSamples/CharacterCounter.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/leetcode/js/DecryptStringFromAlphabetToIntegerMapping.js</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/leetcode/js/ValidParentheses.js</url>
+          <line>23</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="NodeJSConfigurationType">
+        <watch expression="string.includes(char)" language="JavaScript" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DSA$TwoSum.coverage" NAME="TwoSum Coverage Results" MODIFIED="1754155719333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/python" />
+    <SUITE FILE_PATH="coverage/DSA$test.coverage" NAME="test Coverage Results" MODIFIED="1754151824064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/python" />
   </component>
 </project>

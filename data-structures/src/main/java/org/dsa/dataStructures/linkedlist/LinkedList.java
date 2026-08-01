@@ -1,4 +1,4 @@
-package org.dsa.datastructures.linkedlist;
+package org.dsa.dataStructures.linkedlist;
 
 public class LinkedList {
 

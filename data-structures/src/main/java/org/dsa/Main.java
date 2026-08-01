@@ -1,6 +1,6 @@
 package org.dsa;
 
-import org.dsa.datastructures.linkedlist.LinkedList;
+import org.dsa.dataStructures.linkedlist.LinkedList;
 
 
 public class Main {

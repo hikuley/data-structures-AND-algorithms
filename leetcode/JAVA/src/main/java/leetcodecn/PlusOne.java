@@ -1,12 +1,12 @@
 package leetcodecn;
 
-class MakeArrayNonDecreasing {
+class PlusOne {
 
 
     //IMPORTANT!! Submit Code Region Begin(Do not remove this line)
     class Solution {
-        public int maximumPossibleSize(int[] nums) {
-            return 0;
+        public int[] plusOne(int[] digits) {
+            return null;
         }
     }
     //IMPORTANT!! Submit Code Region End(Do not remove this line)

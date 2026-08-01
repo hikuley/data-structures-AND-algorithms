@@ -3,7 +3,7 @@ package leetcodecn;
 class ReverseInteger {
 
 
-    //IMPORTANT!! Submit Code Region Begin(Do not remove this line)
+//IMPORTANT!! Submit Code Region Begin(Do not remove this line)
     class Solution {
         public int reverse(int x) {
             var rev = 0;

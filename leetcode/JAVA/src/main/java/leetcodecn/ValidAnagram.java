@@ -1,13 +1,14 @@
 package leetcodecn;
 
-class MakeArrayNonDecreasing {
+class ValidAnagram {
 
 
     //IMPORTANT!! Submit Code Region Begin(Do not remove this line)
     class Solution {
-        public int maximumPossibleSize(int[] nums) {
-            return 0;
+        public boolean isAnagram(String s, String t) {
+            return false;
         }
+
     }
     //IMPORTANT!! Submit Code Region End(Do not remove this line)
 
